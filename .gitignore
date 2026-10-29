@@ -1,0 +1,13 @@
+# Ignore installed dependencies and generated Next.js output.
+node_modules/
+.next/
+out/
+dist/
+coverage/
+
+# Ignore local environment files.
+.env*
+!.env.example
+
+# Ignore TypeScript build cache.
+*.tsbuildinfo
